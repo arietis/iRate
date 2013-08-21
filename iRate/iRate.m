@@ -100,7 +100,7 @@ static NSString *const iRateMacAppStoreURLFormat = @"macappstore://itunes.apple.
     static NSBundle *bundle = nil;
     if (bundle == nil)
     {
-        NSString *bundlePath = [[NSBundle mainBundle] pathForResource:@"iRate" ofType:@"bundle"];
+        NSString *bundlePath = [[NSBundle mainBundle] pathForResource:@"iRateExtended" ofType:@"bundle"];
         bundle = [NSBundle bundleWithPath:bundlePath] ?: [NSBundle mainBundle];
         if (self.useAllAvailableLanguages)
         {
